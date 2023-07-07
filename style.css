@@ -3,10 +3,20 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
     scroll-padding-top: 2rem;
     list-style: none;
-    text-decoration: none;
-    scroll-behavior: smooth;
-    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    background-color: aquamarine;
+}
+selection {
+    padding: 50px 10%;
+}
+
+*::selection{
+    color:#fff;
+    background: burlywood;
+}
+.navbar{
+    display: block;
+    text-align: unset;
 }
